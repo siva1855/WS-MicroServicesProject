@@ -1,0 +1,22 @@
+#####Hystrix server port number###########
+server:
+  port: 9093
+######application name(URL)###########
+spring:
+  application:
+    name: DIGT-HYSTRIX-DASHBOARD
+#####hystrix dashboard to access all URLs here##### 
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"
+    
+
+######logger file#######    
+logging:
+  file:
+    name: ./logs/DigtHistrixDashboard.log
+#####logger patterns console,file##########
+  pattern:
+    console: '"%d{yyyy-MM-dd HH:mm:ss} - %msg%n"'
+    file: '"%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"'
+

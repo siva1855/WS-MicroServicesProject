@@ -1,0 +1,62 @@
+###########logger file#######
+logging:
+  file:
+    name: ./logs/DigtAPIGateWayRouting.log
+##########logger patterns console,file##########
+  pattern:
+    console: '"%d{yyyy-MM-dd HH:mm:ss} - %msg%n"'
+    file: '"%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"'
+
+
+#########Zuul proxy API gateway server port number#####################
+server:
+  port: 9090
+######application name(URL)###########
+spring:
+  application:
+    name: DIGT-APIGATEWAY-ROUTING
+#########gateway routing configuration#############
+  cloud:
+    gateway:
+      routes:
+        - id: DIGT-USER-SERVICE
+          uri: lb://DIGT-USER-SERVICE
+          predicates:
+            - Path=/userservice/**
+################hystrix circuti breaker#################    
+          filters:
+            - name: CircuitBreaker
+#############fallback methods#################### 
+              args:
+                name: DIGT-USER-SERVICE
+                fallbackuri: forward:/userservicefallback
+################gateway routing configuration###############
+        - id: DIGT-DEPARTMENT-SERVICE
+          uri: lb://DIGT-DEPARTMENT-SERVICE
+          predicates:
+            - Path=/departmentservice/**
+##################hystrix circuti breaker############### 
+          filters:
+            - name: CircuitBreaker
+################fallback methods#################### 
+              args:
+                name: DIGT-DEPARTMENT-SERVICE
+                fallbackuri: forward:/departmentservicefallback
+
+##################hystrix dashboard configuration#################
+hystrix:
+  command:
+    fallbackcmd:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 4000
+
+##################hystrix dashboard generate stream##############
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+
+ 

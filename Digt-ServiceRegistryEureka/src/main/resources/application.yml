@@ -1,0 +1,4 @@
+#####activate environment######
+spring:
+  profiles:
+    active: '@activatedProperties@'

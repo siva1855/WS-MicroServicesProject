@@ -1,0 +1,16 @@
+#####eureka client disable#######
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+######logger file#######   
+logging:
+  file:
+    name: ./logs/DigtServiceRegistryEureka.log
+#####logger patterns console,file##########
+  pattern:
+    console: '"%d{yyyy-MM-dd HH:mm:ss} - %msg%n"'
+    file: '"%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"'
+#####Eureka server port number###########
+server:
+  port: 8761
