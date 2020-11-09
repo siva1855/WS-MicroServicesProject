@@ -15,6 +15,14 @@ server:
 spring:
   application:
     name: DIGT-USER-SERVICE
+  boot:
+    admin:
+      client:
+        url:
+        - http://localhost:9095
+        username: siva
+        password: vdsi@123
+    
 #####Database Properties##############
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -32,3 +40,6 @@ spring:
 #####Zipkin URL (To find Service logger status and API Info)######
   zipkin:
     base-url: http://127.0.0.1:9411/
+
+
+    

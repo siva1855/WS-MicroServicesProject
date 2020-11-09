@@ -1,107 +1,166 @@
-"2020-11-06 21:27:17 [main] INFO  c.v.d.s.DigtServiceRegistryEurekaApplication - The following profiles are active: dev
-""2020-11-06 21:27:17 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
-""2020-11-06 21:27:18 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=058d191f-01e8-3aa0-a7b3-360039a255b6
-""2020-11-06 21:27:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8761 (http)
-""2020-11-06 21:27:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-""2020-11-06 21:27:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
-""2020-11-06 21:27:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-""2020-11-06 21:27:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1500 ms
-""2020-11-06 21:27:18 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-""2020-11-06 21:27:18 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-""2020-11-06 21:27:18 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@eed890d
-""2020-11-06 21:27:19 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
-""2020-11-06 21:27:19 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
-""2020-11-06 21:27:19 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
-""2020-11-06 21:27:19 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
-""2020-11-06 21:27:19 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
-""2020-11-06 21:27:19 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
-""2020-11-06 21:27:19 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
-""2020-11-06 21:27:19 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-""2020-11-06 21:27:19 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-""2020-11-06 21:27:21 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
-""2020-11-06 21:27:21 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
-""2020-11-06 21:27:21 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
-""2020-11-06 21:27:21 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
-""2020-11-06 21:27:21 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
-""2020-11-06 21:27:21 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1604678241233 with initial instances count: 0
-""2020-11-06 21:27:21 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
-""2020-11-06 21:27:21 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
-""2020-11-06 21:27:21 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
-""2020-11-06 21:27:21 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
-""2020-11-06 21:27:21 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
-""2020-11-06 21:27:21 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
-""2020-11-06 21:27:21 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
-""2020-11-06 21:27:21 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
-""2020-11-06 21:27:21 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
-""2020-11-06 21:27:21 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
-""2020-11-06 21:27:21 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
-""2020-11-06 21:27:21 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
-""2020-11-06 21:27:21 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
-""2020-11-06 21:27:21 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
-""2020-11-06 21:27:21 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
-""2020-11-06 21:27:21 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
-""2020-11-06 21:27:21 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
-""2020-11-06 21:27:21 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
-""2020-11-06 21:27:21 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
-""2020-11-06 21:27:21 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
-""2020-11-06 21:27:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8761 (http) with context path ''
-""2020-11-06 21:27:21 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
-""2020-11-06 21:27:22 [main] INFO  c.v.d.s.DigtServiceRegistryEurekaApplication - Started DigtServiceRegistryEurekaApplication in 6.814 seconds (JVM running for 8.878)
-""2020-11-06 21:27:22 [main] INFO  c.v.d.s.DigtServiceRegistryEurekaApplication - ******Eureka Server Started********
-""2020-11-06 21:28:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:28:34 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-""2020-11-06 21:28:34 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-""2020-11-06 21:28:34 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
-""2020-11-06 21:28:34 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-DEPARTMENT-SERVICE/ANNAPURNA:DIGT-DEPARTMENT-SERVICE:9091 with status UP (replication=false)
-""2020-11-06 21:28:35 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-DEPARTMENT-SERVICE/ANNAPURNA:DIGT-DEPARTMENT-SERVICE:9091 with status UP (replication=true)
-""2020-11-06 21:29:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:30:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:30:38 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-USER-SERVICE/ANNAPURNA:DIGT-USER-SERVICE:9092 with status UP (replication=false)
-""2020-11-06 21:30:38 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-USER-SERVICE/ANNAPURNA:DIGT-USER-SERVICE:9092 with status UP (replication=true)
-""2020-11-06 21:31:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:31:48 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-CLOUD-CONFIGSERVER/ANNAPURNA:DIGT-CLOUD-CONFIGSERVER:9094 with status UP (replication=false)
-""2020-11-06 21:31:49 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-CLOUD-CONFIGSERVER/ANNAPURNA:DIGT-CLOUD-CONFIGSERVER:9094 with status UP (replication=true)
-""2020-11-06 21:32:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:33:04 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-APIGATEWAY-ROUTING/ANNAPURNA:DIGT-APIGATEWAY-ROUTING:9090 with status UP (replication=false)
-""2020-11-06 21:33:05 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-APIGATEWAY-ROUTING/ANNAPURNA:DIGT-APIGATEWAY-ROUTING:9090 with status UP (replication=true)
-""2020-11-06 21:33:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:34:06 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-HYSTRIX-DASHBOARD/ANNAPURNA:DIGT-HYSTRIX-DASHBOARD:9093 with status UP (replication=false)
-""2020-11-06 21:34:06 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-HYSTRIX-DASHBOARD/ANNAPURNA:DIGT-HYSTRIX-DASHBOARD:9093 with status UP (replication=true)
-""2020-11-06 21:34:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:35:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:36:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:37:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:38:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
-""2020-11-06 21:39:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:40:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 3ms
-""2020-11-06 21:41:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 2ms
-""2020-11-06 21:42:21 [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Current renewal threshold is : 10
-""2020-11-06 21:42:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:43:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 9ms
-""2020-11-06 21:44:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:45:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:46:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:47:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:48:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:49:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:50:21 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
-""2020-11-06 21:50:22 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-DEPARTMENT-SERVICE/ANNAPURNA:DIGT-DEPARTMENT-SERVICE:9091 with status DOWN (replication=false)
-""2020-11-06 21:50:22 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-DEPARTMENT-SERVICE/ANNAPURNA:DIGT-DEPARTMENT-SERVICE:9091 with status DOWN (replication=true)
-""2020-11-06 21:50:25 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-HYSTRIX-DASHBOARD/ANNAPURNA:DIGT-HYSTRIX-DASHBOARD:9093 with status DOWN (replication=false)
-""2020-11-06 21:50:26 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-HYSTRIX-DASHBOARD/ANNAPURNA:DIGT-HYSTRIX-DASHBOARD:9093 with status DOWN (replication=true)
-""2020-11-06 21:50:31 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-APIGATEWAY-ROUTING/ANNAPURNA:DIGT-APIGATEWAY-ROUTING:9090 with status DOWN (replication=false)
-""2020-11-06 21:50:31 [http-nio-8761-exec-7] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-APIGATEWAY-ROUTING/ANNAPURNA:DIGT-APIGATEWAY-ROUTING:9090 with status DOWN (replication=true)
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application UNKNOWN with eureka with status DOWN
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.executionTime.Will start computing stats again.
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.servo.monitor.StatsMonitor - Attempting to get the value for an expired monitor: eurekaServer.replication.batchSize.Will start computing stats again.
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shut down
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
-""2020-11-06 21:50:32 [RMI TCP Connection(2)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+"2020-11-09 11:34:33 [main] INFO  c.v.d.s.DigtServiceRegistryEurekaApplication - The following profiles are active: dev
+""2020-11-09 11:34:35 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2020-11-09 11:34:35 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d86e9b96-c75b-36cb-acd1-b679cfbc66c6
+""2020-11-09 11:34:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8761 (http)
+""2020-11-09 11:34:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-11-09 11:34:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+""2020-11-09 11:34:36 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-11-09 11:34:36 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2043 ms
+""2020-11-09 11:34:36 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+""2020-11-09 11:34:36 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2020-11-09 11:34:36 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7675c171
+""2020-11-09 11:34:36 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+""2020-11-09 11:34:36 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+""2020-11-09 11:34:36 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+""2020-11-09 11:34:37 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+""2020-11-09 11:34:37 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+""2020-11-09 11:34:37 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+""2020-11-09 11:34:37 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+""2020-11-09 11:34:37 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2020-11-09 11:34:37 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-11-09 11:34:38 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+""2020-11-09 11:34:39 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+""2020-11-09 11:34:39 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2020-11-09 11:34:39 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+""2020-11-09 11:34:39 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+""2020-11-09 11:34:39 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+""2020-11-09 11:34:39 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1604901879663 with initial instances count: 0
+""2020-11-09 11:34:39 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+""2020-11-09 11:34:39 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+""2020-11-09 11:34:39 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+""2020-11-09 11:34:39 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+""2020-11-09 11:34:39 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+""2020-11-09 11:34:39 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+""2020-11-09 11:34:40 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+""2020-11-09 11:34:40 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+""2020-11-09 11:34:40 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+""2020-11-09 11:34:40 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-11-09 11:34:40 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
+""2020-11-09 11:34:40 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+""2020-11-09 11:34:40 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+""2020-11-09 11:34:40 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+""2020-11-09 11:34:40 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+""2020-11-09 11:34:40 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+""2020-11-09 11:34:40 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+""2020-11-09 11:34:40 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+""2020-11-09 11:34:40 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+""2020-11-09 11:34:40 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+""2020-11-09 11:34:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8761 (http) with context path ''
+""2020-11-09 11:34:40 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+""2020-11-09 11:34:40 [main] INFO  c.v.d.s.DigtServiceRegistryEurekaApplication - Started DigtServiceRegistryEurekaApplication in 9.916 seconds (JVM running for 12.143)
+""2020-11-09 11:34:40 [main] INFO  c.v.d.s.DigtServiceRegistryEurekaApplication - ******Eureka Server Started********
+""2020-11-09 11:34:45 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=spring-boot-application, managementUrl=http://ANNAPURNA:8761/actuator, healthUrl=http://ANNAPURNA:8761/actuator/health, serviceUrl=http://ANNAPURNA:8761/) at spring-boot-admin ([http://localhost:9095/instances]): I/O error on POST request for "http://localhost:9095/instances": Connect to localhost:9095 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9095 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect. Further attempts are logged on DEBUG level
+""2020-11-09 11:35:40 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+""2020-11-09 11:36:08 [http-nio-8761-exec-9] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-11-09 11:36:08 [http-nio-8761-exec-9] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2020-11-09 11:36:08 [http-nio-8761-exec-9] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 79 ms
+""2020-11-09 11:36:40 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+""2020-11-09 11:36:42 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 4be8179c6205
+""2020-11-09 11:37:40 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+""2020-11-09 11:38:34 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=spring-boot-application, managementUrl=http://ANNAPURNA:8761/actuator, healthUrl=http://ANNAPURNA:8761/actuator/health, serviceUrl=http://ANNAPURNA:8761/) at spring-boot-admin ([http://localhost:9095/instances]): I/O error on POST request for "http://localhost:9095/instances": Connect to localhost:9095 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9095 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect. Further attempts are logged on DEBUG level
+""2020-11-09 11:38:40 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+""2020-11-09 11:38:52 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2020-11-09 11:38:52 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application UNKNOWN with eureka with status DOWN
+""2020-11-09 11:38:52 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2020-11-09 11:38:52 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2020-11-09 11:38:52 [RMI TCP Connection(3)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+""2020-11-09 11:38:52 [RMI TCP Connection(3)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+""2020-11-09 11:38:52 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService
+""2020-11-09 11:38:52 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-11-09 11:38:52 [RMI TCP Connection(3)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+""2020-11-09 11:38:52 [RMI TCP Connection(3)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+""2020-11-09 11:40:48 [main] INFO  c.v.d.s.DigtServiceRegistryEurekaApplication - The following profiles are active: dev
+""2020-11-09 11:40:49 [main] WARN  o.s.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2020-11-09 11:40:49 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=d86e9b96-c75b-36cb-acd1-b679cfbc66c6
+""2020-11-09 11:40:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8761 (http)
+""2020-11-09 11:40:50 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-11-09 11:40:50 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+""2020-11-09 11:40:50 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-11-09 11:40:50 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1824 ms
+""2020-11-09 11:40:50 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+""2020-11-09 11:40:50 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2020-11-09 11:40:50 [main] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@6f731759
+""2020-11-09 11:40:50 [main] INFO  c.s.j.s.i.a.WebApplicationImpl - Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+""2020-11-09 11:40:51 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+""2020-11-09 11:40:51 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+""2020-11-09 11:40:51 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+""2020-11-09 11:40:51 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+""2020-11-09 11:40:51 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration - No spring.application.name found, defaulting to 'application'
+""2020-11-09 11:40:51 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+""2020-11-09 11:40:51 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2020-11-09 11:40:52 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-11-09 11:40:53 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+""2020-11-09 11:40:53 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses Jersey
+""2020-11-09 11:40:53 [main] WARN  o.s.c.l.c.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+""2020-11-09 11:40:53 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+""2020-11-09 11:40:53 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+""2020-11-09 11:40:53 [main] INFO  c.netflix.discovery.DiscoveryClient - Client configured to neither register nor query for data.
+""2020-11-09 11:40:53 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1604902253765 with initial instances count: 0
+""2020-11-09 11:40:53 [main] INFO  c.n.e.DefaultEurekaServerContext - Initializing ...
+""2020-11-09 11:40:53 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Adding new peer nodes [http://localhost:8761/eureka/]
+""2020-11-09 11:40:53 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+""2020-11-09 11:40:53 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+""2020-11-09 11:40:53 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+""2020-11-09 11:40:53 [main] INFO  c.n.d.p.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+""2020-11-09 11:40:53 [main] INFO  c.n.eureka.cluster.PeerEurekaNodes - Replica node URL:  http://localhost:8761/eureka/
+""2020-11-09 11:40:53 [main] INFO  c.n.e.r.AbstractInstanceRegistry - Finished initializing remote region registries. All known remote regions: []
+""2020-11-09 11:40:54 [main] INFO  c.n.e.DefaultEurekaServerContext - Initialized
+""2020-11-09 11:40:54 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-11-09 11:40:54 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application UNKNOWN with eureka with status UP
+""2020-11-09 11:40:54 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Setting the eureka configuration..
+""2020-11-09 11:40:54 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka data center value eureka.datacenter is not set, defaulting to default
+""2020-11-09 11:40:54 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Eureka environment value eureka.environment is not set, defaulting to test
+""2020-11-09 11:40:54 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - isAws returned false
+""2020-11-09 11:40:54 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerBootstrap - Initialized server context
+""2020-11-09 11:40:54 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Got 1 instances from neighboring DS node
+""2020-11-09 11:40:54 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Renew threshold is: 1
+""2020-11-09 11:40:54 [Thread-10] INFO  c.n.e.r.PeerAwareInstanceRegistryImpl - Changing status to UP
+""2020-11-09 11:40:54 [Thread-10] INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration - Started Eureka Server
+""2020-11-09 11:40:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8761 (http) with context path ''
+""2020-11-09 11:40:54 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8761
+""2020-11-09 11:40:54 [main] INFO  c.v.d.s.DigtServiceRegistryEurekaApplication - Started DigtServiceRegistryEurekaApplication in 8.066 seconds (JVM running for 9.558)
+""2020-11-09 11:40:54 [main] INFO  c.v.d.s.DigtServiceRegistryEurekaApplication - ******Eureka Server Started********
+""2020-11-09 11:40:55 [http-nio-8761-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-11-09 11:40:55 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2020-11-09 11:40:55 [http-nio-8761-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+""2020-11-09 11:40:58 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=spring-boot-application, managementUrl=http://ANNAPURNA:8761/actuator, healthUrl=http://ANNAPURNA:8761/actuator/health, serviceUrl=http://ANNAPURNA:8761/) at spring-boot-admin ([http://localhost:9095/instances]): I/O error on POST request for "http://localhost:9095/instances": Connect to localhost:9095 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9095 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect. Further attempts are logged on DEBUG level
+""2020-11-09 11:41:18 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOT-ADMIN/ANNAPURNA:Boot-Admin:9095 with status UP (replication=false)
+""2020-11-09 11:41:18 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOT-ADMIN/ANNAPURNA:Boot-Admin:9095 with status UP (replication=true)
+""2020-11-09 11:41:19 [registrationTask1] INFO  d.c.b.a.c.r.ApplicationRegistrator - Application registered itself as 4be8179c6205
+""2020-11-09 11:41:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+""2020-11-09 11:42:14 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOT-ADMIN/ANNAPURNA:Boot-Admin:9095 with status DOWN (replication=false)
+""2020-11-09 11:42:14 [http-nio-8761-exec-8] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance BOOT-ADMIN/ANNAPURNA:Boot-Admin:9095 with status DOWN (replication=true)
+""2020-11-09 11:42:18 [registrationTask1] WARN  d.c.b.a.c.r.ApplicationRegistrator - Failed to register application as Application(name=spring-boot-application, managementUrl=http://ANNAPURNA:8761/actuator, healthUrl=http://ANNAPURNA:8761/actuator/health, serviceUrl=http://ANNAPURNA:8761/) at spring-boot-admin ([http://localhost:9095/instances]): I/O error on POST request for "http://localhost:9095/instances": Connect to localhost:9095 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:9095 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect. Further attempts are logged on DEBUG level
+""2020-11-09 11:42:19 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Cancelled instance BOOT-ADMIN/ANNAPURNA:Boot-Admin:9095 (replication=false)
+""2020-11-09 11:42:20 [http-nio-8761-exec-9] WARN  c.n.e.r.AbstractInstanceRegistry - DS: Registry: cancel failed because Lease is not registered for: BOOT-ADMIN/ANNAPURNA:Boot-Admin:9095
+""2020-11-09 11:42:20 [http-nio-8761-exec-9] INFO  c.n.e.resources.InstanceResource - Not Found (Cancel): BOOT-ADMIN - ANNAPURNA:Boot-Admin:9095
+""2020-11-09 11:42:20 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.ReplicationTask - The replication of task BOOT-ADMIN/ANNAPURNA:Boot-Admin:9095:Cancel@localhost failed with response code 404
+""2020-11-09 11:42:20 [TaskBatchingWorker-target_localhost-7] WARN  c.n.eureka.cluster.PeerEurekaNode - BOOT-ADMIN/ANNAPURNA:Boot-Admin:9095:Cancel@localhost: missing entry.
+""2020-11-09 11:42:23 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-ADMIN-SERVER/ANNAPURNA:DIGT-ADMIN-SERVER:9095 with status UP (replication=false)
+""2020-11-09 11:42:24 [http-nio-8761-exec-2] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-ADMIN-SERVER/ANNAPURNA:DIGT-ADMIN-SERVER:9095 with status UP (replication=true)
+""2020-11-09 11:42:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+""2020-11-09 11:43:03 [http-nio-8761-exec-3] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-DEPARTMENT-SERVICE/ANNAPURNA:DIGT-DEPARTMENT-SERVICE:9091 with status UP (replication=false)
+""2020-11-09 11:43:04 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-DEPARTMENT-SERVICE/ANNAPURNA:DIGT-DEPARTMENT-SERVICE:9091 with status UP (replication=true)
+""2020-11-09 11:43:37 [http-nio-8761-exec-5] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-USER-SERVICE/ANNAPURNA:DIGT-USER-SERVICE:9092 with status UP (replication=false)
+""2020-11-09 11:43:38 [http-nio-8761-exec-6] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-USER-SERVICE/ANNAPURNA:DIGT-USER-SERVICE:9092 with status UP (replication=true)
+""2020-11-09 11:43:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+""2020-11-09 11:44:09 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-CLOUD-CONFIGSERVER/ANNAPURNA:DIGT-CLOUD-CONFIGSERVER:9094 with status UP (replication=false)
+""2020-11-09 11:44:10 [http-nio-8761-exec-10] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-CLOUD-CONFIGSERVER/ANNAPURNA:DIGT-CLOUD-CONFIGSERVER:9094 with status UP (replication=true)
+""2020-11-09 11:44:47 [http-nio-8761-exec-9] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-APIGATEWAY-ROUTING/ANNAPURNA:DIGT-APIGATEWAY-ROUTING:9090 with status UP (replication=false)
+""2020-11-09 11:44:48 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-APIGATEWAY-ROUTING/ANNAPURNA:DIGT-APIGATEWAY-ROUTING:9090 with status UP (replication=true)
+""2020-11-09 11:44:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+""2020-11-09 11:45:07 [http-nio-8761-exec-1] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-HYSTRIX-DASHBOARD/ANNAPURNA:DIGT-HYSTRIX-DASHBOARD:9093 with status UP (replication=false)
+""2020-11-09 11:45:08 [http-nio-8761-exec-4] INFO  c.n.e.r.AbstractInstanceRegistry - Registered instance DIGT-HYSTRIX-DASHBOARD/ANNAPURNA:DIGT-HYSTRIX-DASHBOARD:9093 with status UP (replication=true)
+""2020-11-09 11:45:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 0ms
+""2020-11-09 11:46:54 [Eureka-EvictionTimer] INFO  c.n.e.r.AbstractInstanceRegistry - Running the evict task with compensationTime 1ms
+""2020-11-09 11:47:02 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2020-11-09 11:47:02 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application UNKNOWN with eureka with status DOWN
+""2020-11-09 11:47:03 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2020-11-09 11:47:03 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2020-11-09 11:47:03 [RMI TCP Connection(3)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shutting down ...
+""2020-11-09 11:47:03 [RMI TCP Connection(3)-127.0.0.1] INFO  c.n.e.DefaultEurekaServerContext - Shut down
+""2020-11-09 11:47:03 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService
+""2020-11-09 11:47:03 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-11-09 11:47:03 [RMI TCP Connection(3)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+""2020-11-09 11:47:03 [RMI TCP Connection(3)-127.0.0.1] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
 "

@@ -1,0 +1,18 @@
+server:
+  port: 9095
+spring:
+  application:
+    name: DIGT-ADMIN-SERVER
+  security:
+    user:
+      name: siva
+      password: vdsi@123
+######logger file#######
+logging:
+  file:
+    name: ./logs/DigtUserService.log
+#####logger patterns console,file##########
+  pattern:
+    console: '"%d{yyyy-MM-dd HH:mm:ss} - %msg%n"'
+    file: '"%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"'
+#####Tomcat server port###########

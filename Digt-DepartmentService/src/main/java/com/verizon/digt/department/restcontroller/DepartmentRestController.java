@@ -22,7 +22,7 @@ public class DepartmentRestController {
 
 	@Autowired
 	private DepartmentService departmentService;
-
+		
 	/* save data */
 	@RequestMapping(value = "/save", method = RequestMethod.POST, consumes = "application/json")
 	public ResponseEntity<String> saveDepartment(@RequestBody Department department) {

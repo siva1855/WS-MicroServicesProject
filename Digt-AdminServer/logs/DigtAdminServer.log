@@ -1,0 +1,63 @@
+"2020-11-08 21:13:54 [main] INFO  c.v.d.a.DigtAdminServerApplication - Starting DigtAdminServerApplication on ANNAPURNA with PID 5748 (D:\JavaWorkspaces\WS-MicroServicesProject\Digt-AdminServer\target\classes started by sivam in D:\JavaWorkspaces\WS-MicroServicesProject\Digt-AdminServer)
+""2020-11-08 21:13:54 [main] INFO  c.v.d.a.DigtAdminServerApplication - The following profiles are active: dev
+""2020-11-08 21:13:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9095 (http)
+""2020-11-08 21:13:55 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-11-08 21:13:55 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+""2020-11-08 21:13:56 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-11-08 21:13:56 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1624 ms
+""2020-11-08 21:13:56 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b6c7012, org.springframework.security.web.context.SecurityContextPersistenceFilter@8054fe2, org.springframework.security.web.header.HeaderWriterFilter@2401856, org.springframework.security.web.authentication.logout.LogoutFilter@388c519, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7fbd3e75, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@49cd946c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48268eec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e900e1a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31acfd4e, org.springframework.security.web.session.SessionManagementFilter@2a4f8009, org.springframework.security.web.access.ExceptionTranslationFilter@6af5b246, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e9bbd9d]
+""2020-11-08 21:13:56 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-11-08 21:13:56 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+""2020-11-08 21:13:57 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-11-08 21:13:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9095 (http) with context path ''
+""2020-11-08 21:13:57 [main] INFO  c.v.d.a.DigtAdminServerApplication - Started DigtAdminServerApplication in 3.599 seconds (JVM running for 5.071)
+""2020-11-08 21:13:57 [main] INFO  c.v.d.a.DigtAdminServerApplication - ******DigtAdminServerApplication Started******
+""2020-11-08 21:14:37 [http-nio-9095-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-11-08 21:14:37 [http-nio-9095-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2020-11-08 21:14:37 [http-nio-9095-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+""2020-11-08 21:14:38 [http-nio-9095-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [537] milliseconds.
+""2020-11-08 21:21:17 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2020-11-08 21:21:17 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-11-08 21:21:59 [main] INFO  c.v.d.a.DigtAdminServerApplication - Starting DigtAdminServerApplication on ANNAPURNA with PID 6736 (D:\JavaWorkspaces\WS-MicroServicesProject\Digt-AdminServer\target\classes started by sivam in D:\JavaWorkspaces\WS-MicroServicesProject\Digt-AdminServer)
+""2020-11-08 21:21:59 [main] INFO  c.v.d.a.DigtAdminServerApplication - The following profiles are active: dev
+""2020-11-08 21:22:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9095 (http)
+""2020-11-08 21:22:01 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-11-08 21:22:01 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+""2020-11-08 21:22:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-11-08 21:22:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1983 ms
+""2020-11-08 21:22:02 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49cd946c, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d42404e, org.springframework.security.web.header.HeaderWriterFilter@2a8b33ba, org.springframework.security.web.authentication.logout.LogoutFilter@4f3e9fbb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@365afe87, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5b1efaaf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31723307, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d7637e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40bf4386, org.springframework.security.web.session.SessionManagementFilter@2e1eb85f, org.springframework.security.web.access.ExceptionTranslationFilter@2f79f192, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@674da77b]
+""2020-11-08 21:22:02 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-11-08 21:22:02 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+""2020-11-08 21:22:03 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-11-08 21:22:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9095 (http) with context path ''
+""2020-11-08 21:22:03 [main] INFO  c.v.d.a.DigtAdminServerApplication - Started DigtAdminServerApplication in 4.421 seconds (JVM running for 6.063)
+""2020-11-08 21:22:03 [main] INFO  c.v.d.a.DigtAdminServerApplication - ******DigtAdminServerApplication Started******
+""2020-11-08 21:22:05 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-11-08 21:22:05 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2020-11-08 21:22:05 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+""2020-11-08 21:22:31 [http-nio-9095-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [401] milliseconds.
+""2020-11-08 21:31:29 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2020-11-08 21:31:31 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2020-11-08 21:31:32 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2020-11-08 21:31:32 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-11-08 21:31:42 [main] INFO  c.v.d.a.DigtAdminServerApplication - Starting DigtAdminServerApplication on ANNAPURNA with PID 12100 (D:\JavaWorkspaces\WS-MicroServicesProject\Digt-AdminServer\target\classes started by sivam in D:\JavaWorkspaces\WS-MicroServicesProject\Digt-AdminServer)
+""2020-11-08 21:31:42 [main] INFO  c.v.d.a.DigtAdminServerApplication - The following profiles are active: dev
+""2020-11-08 21:31:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9095 (http)
+""2020-11-08 21:31:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2020-11-08 21:31:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+""2020-11-08 21:31:44 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2020-11-08 21:31:44 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1912 ms
+""2020-11-08 21:31:44 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d4436d0, org.springframework.security.web.context.SecurityContextPersistenceFilter@67fb5025, org.springframework.security.web.header.HeaderWriterFilter@525b1b70, org.springframework.security.web.authentication.logout.LogoutFilter@4bf80c29, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1cbc5693, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@392781e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@902fdbe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39da5e49, org.springframework.security.web.session.SessionManagementFilter@3b481bf5, org.springframework.security.web.access.ExceptionTranslationFilter@570ba13, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d6751e3]
+""2020-11-08 21:31:45 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-11-08 21:31:45 [main] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+""2020-11-08 21:31:46 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-11-08 21:31:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9095 (http) with context path ''
+""2020-11-08 21:31:46 [main] INFO  c.v.d.a.DigtAdminServerApplication - Started DigtAdminServerApplication in 4.617 seconds (JVM running for 6.122)
+""2020-11-08 21:31:46 [main] INFO  c.v.d.a.DigtAdminServerApplication - ******DigtAdminServerApplication Started******
+""2020-11-08 21:31:47 [http-nio-9095-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-11-08 21:31:47 [http-nio-9095-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2020-11-08 21:31:47 [http-nio-9095-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+""2020-11-08 21:37:58 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2020-11-08 21:38:00 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+""2020-11-08 21:38:00 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+"
