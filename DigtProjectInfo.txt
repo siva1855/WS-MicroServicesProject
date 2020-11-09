@@ -1,0 +1,57 @@
+Digt-DepartmentService ---- DIGT-DEPARTMENT-SERVICE
+===================================================
+http://localhost:9091/departmentservice/save
+http://localhost:9091/departmentservice/all
+http://localhost:9091/departmentservice/one/{departmentId}
+http://localhost:9091/departmentservice/remove/{departmentId}
+http://localhost:9091/departmentservice/update
+
+Digt-DepartmentService --- DIGT-USER-SERVICE
+=============================================
+http://localhost:9092/userservice/save
+http://localhost:9092/userservice/all
+http://localhost:9092/userservice/one/{userId}
+http://localhost:9092/userservice/remove/{userId}
+http://localhost:9092/userservice/update
+
+http://localhost:9092/userservice/alldata
+http://localhost:9092/userservice/onedata/{userId}
+
+Digt-ServiceRegistryEurek
+=========================
+http://localhost:8761
+
+Digt-APIGateWayRouting --- DIGT-APIGATEWAY-ROUTING
+==================================================
+http://localhost:9090
+
+To run hystrix stream
+======================
+http://localhost:9090/actuator/hystrix.stream
+
+Digt-HystrixDashboard --- DIGT-HYSTRIX-DASHBOARD
+================================================
+http://localhost:9093
+
+To run hystrix dashboard
+========================
+http://localhost:9093/hystrix
+
+Digt-CloudConfigServer --- DIGT-CLOUD-CONFIGSERVER
+==================================================
+http://localhost:9094
+
+cloud -- comman properties file location
+========================================
+https://github.com/siva1855/verizon-digt-configserver
+
+
+zipkin+sleuth tracing
+======================
+http://127.0.0.1:9411/
+
+Digt-AdminServer --- DIGT-ADMIN-SERVER
+======================================
+http://localhost:9095
+user --siva
+password --vdsi@123
